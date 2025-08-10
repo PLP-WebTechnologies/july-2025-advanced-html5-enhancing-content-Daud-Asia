@@ -1,1 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tech Conference 2025 Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    input, select, textarea {
+      padding: 8px;
+      margin-top: 5px;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    input[type="submit"] {
+      width: auto;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    table, th, td {
+      border: 1px solid #333;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    img, audio, video {
+      margin-top: 10px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Tech Conference 2025</h1>
+    <p>Join industry leaders and innovators for a full-day event packed with talks, networking, and tech showcases.</p>
+  </header>
+
+  <section>
+    <h2>Event Highlights</h2>
+    <ul>
+      <li>Expert Speakers</li>
+      <li>Hands-on Workshops</li>
+      <li>Networking Opportunities</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Schedule Overview</h2>
+    <table>
+      <tr>
+        <th>Time</th>
+        <th>Session</th>
+        <th>Speaker</th>
+      </tr>
+      <tr>
+        <td>10:00 AM</td>
+        <td>Opening Keynote</td>
+        <td>Dr. Ada Tech</td>
+      </tr>
+      <tr>
+        <td>12:00 PM</td>
+        <td>AI Workshop</td>
+        <td>John Byte</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Event Media</h2>
+    <img src="event.jpg" alt="Conference Image" width="300">
+    <audio controls>
+      <source src="promo.mp3" type="audio/mpeg">
+      Your browser does not support audio.
+    </audio>
+    <video width="320" height="240" controls>
+      <source src="intro.mp4" type="video/mp4">
+      Your browser does not support video.
+    </video>
+  </section>
+
+  <section>
+    <h2>Register Now</h2>
+    <form action="#" method="post">
+      <label>First Name:
+        <input type="text" name="firstname" placeholder="Enter first name" required autocomplete="on">
+        </label>
+
+      <label>Last Name:
+        <input type="text" name="lastname" placeholder="Enter last name" required autocomplete="on">
+      </label>
+
+      <label>Email:
+        <input type="email" name="email" placeholder="Enter email" required>
+      </label>
+
+      <label>Phone:
+        <input type="tel" name="phone" placeholder="Enter phone number" required>
+      </label>
+
+      <label>Gender:
+        <select name="gender">
+          <option value="">Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </label>
+
+      <label>Age:
+        <input type="number" name="age" min="18" max="100">
+      </label>
+
+      <label>Password:
+        <input type="password" name="password" required>
+      </label>
+
+      <label>Referral Code:
+        <input type="text" value="CONF2025" readonly>
+      </label>
+
+      <label>Why do you want to attend?
+        <textarea name="reason" rows="4" placeholder="Tell us in 50 words..."></textarea>
+      </label>
+
+      <input type="submit" value="Register">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tech Conference. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
 
